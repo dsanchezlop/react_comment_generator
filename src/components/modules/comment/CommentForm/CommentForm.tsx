@@ -36,13 +36,12 @@ const CommentForm = () => {
     <div className="bg-white px-4 py-6 sm:px-6">
       <div className="flex space-x-3">
           <div className="flex-shrink-0">
-            <Avatar imageUrl={userImage} />
+            <Avatar src={userImage} alt={''} />
           </div>
           <div className="min-w-0 flex-1">
-          <WithTitleAndPillActionsTextArea
+            <WithTitleAndPillActionsTextArea
             onUpload={handleUpload}
-            isUploading={isUploading}
-          />
+            isUploading={isUploading} disabled={false}            />
           </div>
       </div>
     </div>
