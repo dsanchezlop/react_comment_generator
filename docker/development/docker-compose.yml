@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+   ApplusLaboratories.HR.Assessments.Frontend.React:
+    build:
+      context: ../../
+      dockerfile: docker/development/Dockerfile
+    image: appluslaboratories.hr.assessments.frontend.react.development
+    ports:
+      - '3000:3000'

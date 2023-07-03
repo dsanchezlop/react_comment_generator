@@ -1,0 +1,25 @@
+.data-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+.title{
+    font-size: 30px;
+}
+input .title{
+text-align: left;
+}
+.coment{
+    text-align: left;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.img-profile{
+    width: 25px;
+    height: 25px;
+}
+.update-button {
+    margin-left: 220px;
+}
