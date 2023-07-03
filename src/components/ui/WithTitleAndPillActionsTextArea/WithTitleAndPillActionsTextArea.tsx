@@ -17,7 +17,6 @@ const WithTitleAndPillActionsTextArea = (props: WithTitleAndPillActionsTextAreaC
     // Perform upload logic here
 
     // Once the upload is complete, set isUploading to false
-    // For example, you can use a setTimeout to simulate the upload process
     setTimeout(() => {
       setIsUploading(false);
     }, 2000);
